@@ -892,6 +892,11 @@
                 $grid.isotope('layout');
             });
 
+                // Extra fix: force layout after window load to ensure all images and fonts are loaded
+                $(window).on('load', function() {
+                    $grid.isotope('layout');
+                });
+
             // Isotope Filter
             var filter = $('.filter');
             if (filter.length > 0) {
