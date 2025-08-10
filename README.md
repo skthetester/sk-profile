@@ -26,9 +26,13 @@ To get started with this project, follow these steps:
     ```bash
     cd sk.testingchief.com
     ```
-3. Install dependencies:
+3. (Optional) Set up Python and install dependencies for image optimization:
     ```bash
-    [Insert installation command here]
+    pip install Pillow
+    ```
+4. To optimize images in the `img` and `img/uploads` directories, run:
+    ```bash
+    python scripts/optimize_images.py
     ```
 
 ## Features
@@ -36,6 +40,7 @@ To get started with this project, follow these steps:
 - Feature 1
 - Feature 2
 - Feature 3
+- Image optimization script for web performance (see Getting Started)
 
 ## Contributing
 
