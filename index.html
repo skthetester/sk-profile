@@ -62,7 +62,10 @@
 
     <div class="wrapper">
         <header class="header">
-            <div class="head-bg" style="background-image: url('img/uploads/cover4.jpg')"></div>
+            <picture>
+                <source srcset="img/uploads/cover4.webp" type="image/webp">
+                <img class="head-bg" src="img/uploads/cover4.jpg" alt="Background cover image" style="width:100%;height:auto;object-fit:cover;position:absolute;top:0;left:0;z-index:-1;">
+            </picture>
 
             <div class="head-bar">
                 <div class="head-bar-inner">
@@ -105,7 +108,12 @@
                             <div class="profile">
                                 <div class="row">
                                     <div class="col-xs-5">
-                                        <div class="profile-photo"><img src="img/uploads/profile-photo-v14.jpg" alt="Sivakumar Ganesan profile photo" /></div>
+                                        <div class="profile-photo">
+                                            <picture>
+                                                <source srcset="img/uploads/profile-photo-v14.webp" type="image/webp">
+                                                <img src="img/uploads/profile-photo-v14.jpg" alt="Sivakumar Ganesan profile photo" width="100%" height="auto" loading="lazy" />
+                                            </picture>
+                                        </div>
                                     </div>
                                     <div class="col-xs-7">
                                         <div class="profile-info">
@@ -1504,22 +1512,22 @@
     </div>
 
     <!-- Scripts -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-    <script type="text/javascript" src="fonts/map-icons/js/map-icons.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.mousewheel-3.0.6.pack.js"></script>
-    <script type="text/javascript" src="js/plugins/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/plugins/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.appear.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.onepagenav.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.bxslider/jquery.bxslider.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.customscroll/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.mediaelement/mediaelement-and-player.min.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.fancybox/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.fancybox/helpers/jquery.fancybox-media.js"></script>
-    <script type="text/javascript" src="js/plugins/jquery.owlcarousel/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/options.js"></script>
-    <script type="text/javascript" src="js/site.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js" defer></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js" defer></script>
+    <script type="text/javascript" src="fonts/map-icons/js/map-icons.min.js" defer></script>
+    <script type="text/javascript" src="js/plugins/jquery.mousewheel-3.0.6.pack.js" defer></script>
+    <script type="text/javascript" src="js/plugins/imagesloaded.pkgd.min.js" defer></script>
+    <script type="text/javascript" src="js/plugins/isotope.pkgd.min.js" defer></script>
+    <script type="text/javascript" src="js/plugins/jquery.appear.min.js" defer></script>
+    <script type="text/javascript" src="js/plugins/jquery.onepagenav.min.js" defer></script>
+    <script type="text/javascript" src="js/plugins/jquery.bxslider/jquery.bxslider.min.js" defer></script>
+    <script type="text/javascript" src="js/plugins/jquery.customscroll/jquery.mCustomScrollbar.concat.min.js" defer></script>
+    <script type="text/javascript" src="js/plugins/jquery.mediaelement/mediaelement-and-player.min.js" defer></script>
+    <script type="text/javascript" src="js/plugins/jquery.fancybox/jquery.fancybox.pack.js" defer></script>
+    <script type="text/javascript" src="js/plugins/jquery.fancybox/helpers/jquery.fancybox-media.js" defer></script>
+    <script type="text/javascript" src="js/plugins/jquery.owlcarousel/owl.carousel.min.js" defer></script>
+    <script type="text/javascript" src="js/options.js" defer></script>
+    <script type="text/javascript" src="js/site.js" defer></script>
 
 
 </body>
