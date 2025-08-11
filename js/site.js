@@ -610,15 +610,16 @@
 			}		        
 		}
 			
+
+        // Always add .animated to .head-bar after page load
+        if (stickyNav.length > 0) {
+            stickyNav.addClass('animated');
+        }
         stickyNavigationAppear();
-		
-		$(window).scroll(function () {
-			stickyNavigationAppear();
-		});
-		
-		$(window).scroll(function () {
-			stickyNavigationAppear();
-		});
+
+        $(window).scroll(function () {
+            stickyNavigationAppear();
+        });
 		
 		/** Mobile Navigation */
         // Mobile Navigation
